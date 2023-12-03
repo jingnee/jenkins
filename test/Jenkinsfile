@@ -4,7 +4,7 @@ pipeline {
     GenericTrigger(
      genericVariables: [
       [key: 'ref', value: '$.ref'],
-      [key: 'email', value: '$.repository. owner.email']
+      [key: 'email', value: '$.repository.owner.email']
      ],
 
      causeString: 'Triggered on $ref',
