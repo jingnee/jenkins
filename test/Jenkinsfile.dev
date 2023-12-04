@@ -23,7 +23,7 @@ node {
 
     causeString: 'Triggered on $ref',
 
-    token: 'abc123',
+    token: 'test',
     tokenCredentialId: '',
 
     printContributedVariables: true,
