@@ -25,7 +25,7 @@ pipeline {
     )
   }
   stages {
-    stage('Some step') {
+    stage('Some step2') {
       steps {
         sh "echo $ref"
         sh "echo $url"
