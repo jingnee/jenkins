@@ -8,7 +8,7 @@ pipeline {
     )
   }
   stages {
-    stage('TEST!!!') {
+    stage('TEST') {
       steps {
         sh "echo $ref"
       }
