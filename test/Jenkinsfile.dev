@@ -1,7 +1,14 @@
 pipeline {
   agent any
+  triggers {
+    GenericTrigger(
+     genericVariables: [
+      [key: 'ref', value: '$.ref']
+     ]
+    )
+  }
   stages {
-    stage('hello') {
+    stage('Some step') {
       steps {
         sh "echo $ref"
       }
